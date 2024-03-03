@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
-import SampleLayout from "../layouts/sampleLayout";
+import MainLayout from "../layouts/mainLayout";
 
 function Feature() {
   return (
-    <SampleLayout>
+    <MainLayout>
       <h1>i do something hahah</h1>
-    </SampleLayout>
+    </MainLayout>
     // <div className="feat">
     //   <h1>i do something hahah</h1>
     // </div>

@@ -5,7 +5,7 @@ import Footer from "./footer";
 type Props = {
   children: ReactNode;
 };
-const SampleLayout = ({ children }: Props) => {
+const MainLayout = ({ children }: Props) => {
   return (
     <div className="h-screen">
       <Header />
@@ -15,4 +15,4 @@ const SampleLayout = ({ children }: Props) => {
   );
 };
 
-export default SampleLayout;
+export default MainLayout;

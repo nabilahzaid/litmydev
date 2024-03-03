@@ -4,13 +4,20 @@ import { ROUTES } from "./Routes";
 import App from "../App";
 import Feature from "../pages/feature";
 import Sample from "../pages/sample";
+import Home from "../pages/home/home";
+import About from "../pages/about/about";
+import Directories from "../pages/directories/directories";
+import Resources from "../pages/resources/resources";
 
 const BrowserRouters = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path={ROUTES.default} element={<Sample />} />
-        <Route path={ROUTES.home} element={<Feature />} />
+        <Route path={ROUTES.default} element={<Home />} />
+        <Route path={ROUTES.home} element={<Home />} />
+        <Route path={ROUTES.about} element={<About />} />
+        <Route path={ROUTES.directories} element={<Directories />} />
+        <Route path={ROUTES.resources} element={<Resources />} />
       </Routes>
     </BrowserRouter>
   );

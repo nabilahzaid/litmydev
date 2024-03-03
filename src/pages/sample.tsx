@@ -8,11 +8,11 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
-import SampleLayout from "../layouts/sampleLayout";
+import MainLayout from "../layouts/mainLayout";
 
 const Sample = () => {
   return (
-    <SampleLayout>
+    <MainLayout>
       <div className="h-full flex justify-center items-center gap-4">
         <Card className="w-1/5">
           <CardHeader>
@@ -54,7 +54,7 @@ const Sample = () => {
           </CardFooter>
         </Card>
       </div>
-    </SampleLayout>
+    </MainLayout>
   );
 };
 
