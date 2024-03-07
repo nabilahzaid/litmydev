@@ -4,8 +4,16 @@ import { SiYoutube } from "react-icons/si";
 const Footer = () => {
   return (
     <div className="w-full">
-      <div className="justify-center">
-        <p className="font-semibold text-xl font-poppins">Ladies in Tech</p>
+      <div className="bg-primary-100 text-center gap-y-5 px-96 py-12 flex flex-col items-center">
+        <p className="font-medium text-3xl font-poppins">Ladies in Tech</p>
+        <p className="font-poppins font-normal">
+          Lorem ipsum dolor sit amet consectetur. Enim nulla vitae pulvinar
+          aenean tortor. Varius neque est iaculis sed. Elementum magna
+          scelerisque est lectus. Orci amet dolor in ut est ut.
+        </p>
+        <button className="bg-primary-800 font-poppins rounded-full px-10 py-4 text-white">
+          Be Featured
+        </button>
       </div>
       <div className="bg-primary-800 px-20 py-3 flex justify-between items-center">
         <div className="font-poppins text-white">
