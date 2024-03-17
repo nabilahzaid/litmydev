@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="w-full">
       <div className="bg-primary-100 text-center gap-y-5 px-96 py-12 flex flex-col items-center">
-        <p className="font-medium text-3xl font-poppins">Ladies in Tech</p>
+        <p className="font-semibold text-3xl font-manrope">Ladies in Tech</p>
         <p className="font-poppins font-normal">
           Lorem ipsum dolor sit amet consectetur. Enim nulla vitae pulvinar
           aenean tortor. Varius neque est iaculis sed. Elementum magna
