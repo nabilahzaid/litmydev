@@ -11,7 +11,7 @@ import {
 
 type Props = {};
 
-function Directories({}: Props) {
+function Directories(_props: Props) {
   return (
     <MainLayout>
       <div className="flex flex-col gap-y-12">

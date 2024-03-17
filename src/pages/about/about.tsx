@@ -1,14 +1,14 @@
-import React from 'react'
-import MainLayout from '../../layouts/mainLayout'
+import React from "react";
+import MainLayout from "../../layouts/mainLayout";
 
-type Props = {}
+type Props = {};
 
-function About({}: Props) {
+function About(_props: Props) {
   return (
     <MainLayout>
-        
+      <div>jndsjskank</div>
     </MainLayout>
-  )
+  );
 }
 
-export default About
+export default About;

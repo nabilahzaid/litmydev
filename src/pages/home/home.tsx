@@ -4,7 +4,7 @@ import { IMAGES } from "../../assets";
 
 type Props = {};
 
-function Home({}: Props) {
+function Home(_props: Props) {
   return (
     <MainLayout>
       <div className="z-0 w-full relative min-h-screen">
