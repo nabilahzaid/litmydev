@@ -1,15 +1,5 @@
 import React from "react";
-import MainLayout from "../../layouts/mainLayout";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Heading,
-  Text,
-  Icon,
-  Button,
-} from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 import { LuMoonStar } from "react-icons/lu";
 
 type Props = {
