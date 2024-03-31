@@ -5,6 +5,7 @@ import Home from "../pages/home/home";
 import About from "../pages/about/about";
 import Directories from "../pages/directories/directories";
 import Resources from "../pages/resources/resources";
+import Projects from "../pages/projects/projects";
 
 const BrowserRouters = () => {
   return (
@@ -15,6 +16,7 @@ const BrowserRouters = () => {
         <Route path={ROUTES.about} element={<About />} />
         <Route path={ROUTES.directories} element={<Directories />} />
         <Route path={ROUTES.resources} element={<Resources />} />
+        <Route path={ROUTES.projects} element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );

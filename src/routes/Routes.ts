@@ -3,5 +3,6 @@ export const ROUTES = {
   home: "/home",
   about: "/about",
   directories: "/directories",
-  resources: "/resources"
+  resources: "/resources",
+  projects: "/projects",
 };

@@ -10,14 +10,17 @@ const Header = () => {
         <li className="">
           <Link to="/home">Home</Link>
         </li>
-        <li className="">
+        {/* <li className="">
           <Link to="/about">About</Link>
-        </li>
-        <li className="">
+        </li> */}
+        {/* <li className="">
           <Link to="/directories">Directories</Link>
-        </li>
-        <li className="">
+        </li> */}
+        {/* <li className="">
           <Link to="/resources">Resources</Link>
+        </li> */}
+        <li className="">
+          <Link to="/projects">Projects</Link>
         </li>
       </ul>
     </div>
