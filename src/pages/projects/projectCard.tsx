@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Text } from "@chakra-ui/react";
 import { LuMoonStar } from "react-icons/lu";
+import ProjectModal from "./projectModal";
 
 type Props = {
   dataProject: any;
@@ -8,6 +9,11 @@ type Props = {
 };
 
 function ProjectCard({ dataProject, day }: Props) {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const onProjectModal = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div className="group relative h-48 flex items-center justify-center shadow-md bg-white rounded-md">
       <Text className="font-poppins text-xl font-extrabold text-primary-700 absolute left-5 top-5 group-hover:opacity-50">{`DAY ${day}`}</Text>
@@ -26,11 +32,20 @@ function ProjectCard({ dataProject, day }: Props) {
           </div>
 
           <div className="opacity-0 group-hover:opacity-100 absolute">
-            <button className="rounded-lg px-5 py-2 bg-primary-400 flex flex-row items-center">
+            <button
+              className="rounded-lg px-5 py-2 bg-primary-400 flex flex-row items-center"
+              onClick={onProjectModal}
+            >
               <LuMoonStar className="text-white" />
               <Text className="ml-2 text-white">More</Text>
             </button>
           </div>
+          <ProjectModal
+            isOpen={isOpen}
+            onProjectModal={onProjectModal}
+            youtube_link={dataProject.presenter_url}
+            title={dataProject.title}
+          />
         </>
       )}
 
