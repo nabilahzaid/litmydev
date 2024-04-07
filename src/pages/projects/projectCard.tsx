@@ -15,7 +15,7 @@ function ProjectCard({ dataProject, day }: Props) {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="group relative h-48 flex items-center justify-center shadow-md bg-white rounded-md">
+    <div className="group relative h-48 flex items-center justify-center shadow-xl bg-white rounded-lg">
       <Text className="font-poppins text-xl font-extrabold text-primary-700 absolute left-5 top-5 group-hover:opacity-50">{`DAY ${day}`}</Text>
       {dataProject.is_ready && (
         <>
@@ -43,8 +43,7 @@ function ProjectCard({ dataProject, day }: Props) {
           <ProjectModal
             isOpen={isOpen}
             onProjectModal={onProjectModal}
-            youtube_link={dataProject.presenter_url}
-            title={dataProject.title}
+            dataProject={dataProject}
           />
         </>
       )}

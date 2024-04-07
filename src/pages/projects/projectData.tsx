@@ -24,16 +24,15 @@ const ProjectData: ProjectDataItems[] = [
   {
     is_ready: true,
     title: "Starting a career in Software Development",
-    link: "link1",
-    presenter_url:
-      "https://www.youtube.com/embed/lXDyWT3VlKg?si=q68H72G4rCqoiXXf",
+    link: "https://www.youtube.com/embed/lXDyWT3VlKg?si=q68H72G4rCqoiXXf",
+    presenter_url: "url",
     presenter_name: "Nabilah Zaid",
     icon_to_use: <LuCode2 />,
   },
   {
-    is_ready: false,
+    is_ready: true,
     title: "title 2",
-    link: "link 2",
+    link: "https://www.youtube.com/embed/-6aVQrzja9U?si=a_AF_wSHjwMcLmHw",
     presenter_url: "link directories 2",
     presenter_name: "person 2",
     icon_to_use: <LuBrainCircuit />,

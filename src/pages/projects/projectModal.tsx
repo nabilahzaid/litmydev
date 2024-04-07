@@ -2,21 +2,22 @@ import React from "react";
 
 import {
   AspectRatio,
+  Button,
   Modal,
   ModalBody,
-  ModalCloseButton,
   ModalContent,
+  ModalFooter,
+  ModalHeader,
   ModalOverlay,
 } from "@chakra-ui/react";
 
 type Props = {
   isOpen: boolean;
   onProjectModal: () => void;
-  youtube_link: string;
-  title: string;
+  dataProject: any;
 };
 
-function ProjectModal({ isOpen, onProjectModal, youtube_link, title }: Props) {
+function ProjectModal({ isOpen, onProjectModal, dataProject }: Props) {
   return (
     <Modal
       size="xl"
@@ -27,12 +28,31 @@ function ProjectModal({ isOpen, onProjectModal, youtube_link, title }: Props) {
     >
       <ModalOverlay />
       <ModalContent>
-        <ModalCloseButton />
-        <ModalBody className="my-10">
+        <ModalHeader className="text-center relative">
+          <div className="text-3xl">{dataProject.presenter_name}</div>
+          <div className="absolute top-5 right-5 text-3xl">
+            {dataProject.icon_to_use}
+          </div>
+        </ModalHeader>
+        <ModalBody>
           <AspectRatio maxW="560px" ratio={16 / 9}>
-            <iframe title={title} src={youtube_link} allowFullScreen />
+            <iframe
+              title={dataProject.title}
+              src={dataProject.link}
+              allowFullScreen
+            />
           </AspectRatio>
         </ModalBody>
+        <ModalFooter>
+          <Button
+            variant="solid"
+            colorScheme="red"
+            mr={3}
+            onClick={onProjectModal}
+          >
+            Close
+          </Button>
+        </ModalFooter>
       </ModalContent>
     </Modal>
   );
