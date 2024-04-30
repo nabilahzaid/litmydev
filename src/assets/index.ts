@@ -1,5 +1,5 @@
 import litmyLogo from "./LITMY-LOGO-MAROON-LONG.png";
-import litmyBanner from "./LIT-Landing Banner-new.webp";
+import litmyBanner from "./LIT-Landing Banner.webp";
 import rayaBg1 from "./raya-bg-1.webp";
 import rayaBg2 from "./raya-bg-2.webp";
 import projectBg1 from "./project-1.webp";

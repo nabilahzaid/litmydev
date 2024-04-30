@@ -7,9 +7,10 @@ const Footer = () => {
       <div className="bg-gradient-to-b from-primary-100 to-primary-300 text-center gap-y-5 px-96 py-12 flex flex-col items-center">
         <p className="font-semibold text-3xl font-manrope">Ladies in Tech</p>
         <p className="font-poppins font-normal">
-          Lorem ipsum dolor sit amet consectetur. Enim nulla vitae pulvinar
-          aenean tortor. Varius neque est iaculis sed. Elementum magna
-          scelerisque est lectus. Orci amet dolor in ut est ut.
+          <em>
+            "Here's to the women who dream big, code hard, and shatter glass
+            ceilings."
+          </em>
         </p>
         <button className="bg-primary-800 font-poppins rounded-full px-10 py-4 text-white">
           Be Featured
