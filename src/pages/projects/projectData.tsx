@@ -30,7 +30,7 @@ const ProjectData: ProjectDataItems[] = [
     icon_to_use: <LuCode2 />,
   },
   {
-    is_ready: true,
+    is_ready: false,
     title: "title 2",
     link: "https://www.youtube.com/embed/-6aVQrzja9U?si=a_AF_wSHjwMcLmHw",
     presenter_url: "link directories 2",

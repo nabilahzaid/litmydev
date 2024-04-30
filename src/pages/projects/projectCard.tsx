@@ -15,7 +15,7 @@ function ProjectCard({ dataProject, day }: Props) {
     setIsOpen(!isOpen);
   };
   return (
-    <div className="group relative h-48 flex items-center justify-center shadow-xl bg-white rounded-lg">
+    <div className="group relative h-48 flex items-center justify-center shadow-xl bg-white opacity-90 rounded-lg">
       <Text className="font-poppins text-xl font-extrabold text-primary-700 absolute left-5 top-5 group-hover:opacity-50">{`DAY ${day}`}</Text>
       {dataProject.is_ready && (
         <>

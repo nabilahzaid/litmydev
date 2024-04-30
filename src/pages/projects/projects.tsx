@@ -13,9 +13,10 @@ function Projects(_props: Props) {
       <div
         className="flex flex-col gap-y-12"
         style={{
-          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(${IMAGES.rayaBg1})`,
+          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(${IMAGES.projectBg1})`,
           backgroundRepeat: `no-repeat`,
-          backgroundSize: `cover`,
+          backgroundSize: `fit`,
+          backgroundPosition: `center`,
         }}
       >
         <div className="text-center pt-40">
