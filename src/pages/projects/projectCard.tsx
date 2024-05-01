@@ -33,7 +33,7 @@ function ProjectCard({ dataProject, day }: Props) {
 
           <div className="opacity-0 group-hover:opacity-100 absolute">
             <button
-              className="rounded-lg px-5 py-2 bg-primary-400 flex flex-row items-center"
+              className="rounded-lg px-5 py-2 bg-primary-700 flex flex-row items-center"
               onClick={onProjectModal}
             >
               <LuMoonStar className="text-white" />
