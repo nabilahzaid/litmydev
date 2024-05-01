@@ -23,7 +23,7 @@ const Footer = () => {
         <div>
           <ul>
             <li>
-              <a href="https://www.youtube.com/@coderbelle5858">
+              <a href="https://www.youtube.com/@LitMYDev">
                 <SiYoutube className="text-2xl text-white hover:text-primary-100" />
               </a>
             </li>
