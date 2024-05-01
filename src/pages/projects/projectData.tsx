@@ -22,9 +22,9 @@ interface ProjectDataItems {
 }
 const ProjectData: ProjectDataItems[] = [
   {
-    is_ready: false,
-    title: "Starting a career in Software Development",
-    link: "https://www.youtube.com/embed/lXDyWT3VlKg?si=q68H72G4rCqoiXXf",
+    is_ready: true,
+    title: "Introduction to the Tech World",
+    link: "https://youtu.be/CQpA4Dov8Qo",
     presenter_url: "url",
     presenter_name: "Nabilah Zaid",
     icon_to_use: <LuCode2 />,

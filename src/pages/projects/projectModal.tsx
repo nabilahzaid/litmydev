@@ -28,20 +28,25 @@ function ProjectModal({ isOpen, onProjectModal, dataProject }: Props) {
     >
       <ModalOverlay />
       <ModalContent>
-        <ModalHeader className="text-center relative">
-          <div className="text-3xl">{dataProject.presenter_name}</div>
-          <div className="absolute top-5 right-5 text-3xl">
+        <ModalHeader className="relative">
+          <div className="text-2xl">{dataProject.title}</div>
+          <div className="absolute top-5 right-5 text-3xl text-primary-800">
             {dataProject.icon_to_use}
           </div>
         </ModalHeader>
         <ModalBody>
-          <AspectRatio maxW="560px" ratio={16 / 9}>
+          <AspectRatio maxW="700px" ratio={16 / 9}>
             <iframe
               title={dataProject.title}
               src={dataProject.link}
               allowFullScreen
             />
           </AspectRatio>
+          <p className="mt-3 text-lg ">
+            <span className="font-semibold text-primary-900">
+              {dataProject.presenter_name}
+            </span>
+          </p>
         </ModalBody>
         <ModalFooter>
           <Button
