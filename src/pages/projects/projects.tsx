@@ -20,15 +20,15 @@ function Projects(_props: Props) {
         }}
       >
         <div className="text-center pt-40">
-          <header className="text-5xl font-poppins font-bold text-primary-700">
+          <header className="text-5xl max-sm:px-10 font-poppins font-bold text-primary-700">
             30 Hari 30 Tech Sharing
           </header>
-          <p className="text-secondary-700 text-2xl tracking-tight font-manrope font-normal pt-5">
+          <p className="text-secondary-700 max-sm:px-10 text-2xl tracking-tight font-manrope font-normal pt-5">
             Special sharing by our amazing LIT members
           </p>
         </div>
-        <div className="px-48 mb-10">
-          <div className="grid grid-cols-5 gap-4">
+        <div className="lg:px-48 md:px-28 max-md:px-12 mb-10">
+          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-sm:flex-1 max-sm:gap-x-10 gap-4">
             {Array.from({ length: ProjectData.length }, (_, index) => {
               const project = ProjectData[index];
               return (

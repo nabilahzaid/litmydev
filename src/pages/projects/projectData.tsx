@@ -23,7 +23,7 @@ interface ProjectDataItems {
 const ProjectData: ProjectDataItems[] = [
   {
     is_ready: true,
-    title: "Introduction to the Tech World",
+    title: "Introduction into the Tech World",
     link: "https://www.youtube.com/embed/CQpA4Dov8Qo?si=QeA9SsgJ0QwvmulV",
     presenter_url: "url",
     presenter_name: "Nabilah Zaid",

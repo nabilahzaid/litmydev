@@ -8,11 +8,16 @@ function Home(_props: Props) {
   return (
     <MainLayout>
       <div className="z-0 w-full relative min-h-screen">
-        <img src={IMAGES.litmyBanner} alt="" className="w-full" />
-        <header className="font-poppins text-center text-primary-800 font-black text-5xl mt-3">
+        <div className="block sm:hidden">
+          <img src={IMAGES.litmyBannerLg} alt="" className="w-full" />
+        </div>
+        <div className="hidden sm:block">
+          <img src={IMAGES.litmyBanner} alt="" className="w-full" />
+        </div>
+        <header className="font-poppins text-center text-primary-800 font-black text-5xl max-md:text-4xl max-sm:px-10 mt-3">
           Tech Sisters, Unite!
         </header>
-        <section className="flex flex-col text-center py-20 px-56 text-xl gap-y-10 font-manrope">
+        <section className="flex flex-col text-center py-20 px-56 max-sm:px-10 max-lg:px-20 max-lg:py-12 text-xl max-md:text-lg gap-y-10 font-manrope">
           <p>
             Ladies in Tech Malaysia (LIT MY) is a dynamic community aimed at
             empowering and connecting women in the technology sector, whether
