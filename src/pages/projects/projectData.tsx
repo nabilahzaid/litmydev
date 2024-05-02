@@ -30,11 +30,11 @@ const ProjectData: ProjectDataItems[] = [
     icon_to_use: <LuCode2 />,
   },
   {
-    is_ready: false,
-    title: "title 2",
-    link: "https://www.youtube.com/embed/-6aVQrzja9U?si=a_AF_wSHjwMcLmHw",
+    is_ready: true,
+    title: "Machine Learning for Competitive Data Science",
+    link: "https://www.youtube.com/embed/ADu6agAQej0",
     presenter_url: "link directories 2",
-    presenter_name: "person 2",
+    presenter_name: "Aisyah Razak",
     icon_to_use: <LuBrainCircuit />,
   },
   {
