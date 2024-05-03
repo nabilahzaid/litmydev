@@ -38,12 +38,12 @@ const ProjectData: ProjectDataItems[] = [
     icon_to_use: <LuBrainCircuit />,
   },
   {
-    is_ready: false,
-    title: "title 3",
-    link: "link3",
+    is_ready: true,
+    title: "Common Misconception About Cybersecurity",
+    link: "https://www.youtube.com/embed/6YTP1sknAkE",
     presenter_url: "link directories 3",
-    presenter_name: "person 3",
-    icon_to_use: <LuBrainCircuit />,
+    presenter_name: "Nurul Hanan",
+    icon_to_use: <LuKey />,
   },
   {
     is_ready: false,
