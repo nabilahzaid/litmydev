@@ -62,12 +62,12 @@ const ProjectData: ProjectDataItems[] = [
     icon_to_use: <LuCode2 />,
   },
   {
-    is_ready: false,
-    title: "title 2",
-    link: "link 6",
-    presenter_url: "link directories 6",
-    presenter_name: "person 6",
-    icon_to_use: <LuBrainCircuit />,
+    is_ready: true,
+    title: "Software Testing/QA",
+    link: "https://www.youtube.com/embed/IwUFnIoJMiw",
+    presenter_url: "",
+    presenter_name: "Shazlin Aziz",
+    icon_to_use: <LuCode2 />,
   },
   {
     is_ready: false,
