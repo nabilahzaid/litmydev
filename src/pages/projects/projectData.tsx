@@ -78,12 +78,12 @@ const ProjectData: ProjectDataItems[] = [
     icon_to_use: <LuBrainCircuit />,
   },
   {
-    is_ready: false,
-    title: "title 2",
-    link: "link 2",
-    presenter_url: "link directories 2",
-    presenter_name: "person 2",
-    icon_to_use: <LuBrainCircuit />,
+    is_ready: true,
+    title: "Capture The Flag: CTF 101",
+    link: "https://www.youtube.com/embed/XGgJ-JC7zfk",
+    presenter_url: "",
+    presenter_name: "Aliah Syafirah",
+    icon_to_use: <LuKey />,
   },
   {
     is_ready: false,
