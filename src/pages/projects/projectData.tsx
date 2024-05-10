@@ -94,12 +94,12 @@ const ProjectData: ProjectDataItems[] = [
     icon_to_use: <LuBrainCircuit />,
   },
   {
-    is_ready: false,
-    title: "title 4",
-    link: "link 4",
-    presenter_url: "link directories 4",
-    presenter_name: "person 5",
-    icon_to_use: <LuBrainCircuit />,
+    is_ready: true,
+    title: "Data Analytics & How To Get Free Course",
+    link: "https://www.youtube.com/embed/RCsOPsittWQ",
+    presenter_url: "",
+    presenter_name: "Amanina Adaris",
+    icon_to_use: <LuBarChart3 />,
   },
   {
     is_ready: false,
