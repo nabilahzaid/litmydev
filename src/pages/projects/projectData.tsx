@@ -86,11 +86,11 @@ const ProjectData: ProjectDataItems[] = [
     icon_to_use: <LuKey />,
   },
   {
-    is_ready: false,
-    title: "title 3",
-    link: "link3",
-    presenter_url: "link directories 3",
-    presenter_name: "person 3",
+    is_ready: true,
+    title: "AI in Healthcare: Part 2",
+    link: "https://www.youtube.com/embed/u8Z9bx_Ui-g",
+    presenter_url: "https://www.youtube.com/@LizaYusoffPhD",
+    presenter_name: "Liza Yusoff",
     icon_to_use: <LuBrainCircuit />,
   },
   {
