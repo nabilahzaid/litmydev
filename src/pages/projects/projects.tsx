@@ -15,8 +15,9 @@ function Projects(_props: Props) {
         style={{
           backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(${IMAGES.projectBg1})`,
           backgroundRepeat: `no-repeat`,
-          backgroundSize: `fit`,
-          backgroundPosition: `center`,
+          backgroundSize: `cover`,
+          backgroundPosition: `center top`,
+          backgroundAttachment: `fixed`,
         }}
       >
         <div className="text-center pt-40">
@@ -28,7 +29,7 @@ function Projects(_props: Props) {
           </p>
         </div>
         <div className="lg:px-48 md:px-28 max-md:px-12 mb-10">
-          <div className="md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 max-sm:space-y-4 gap-4">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
             {Array.from({ length: ProjectData.length }, (_, index) => {
               const project = ProjectData[index];
               return (
